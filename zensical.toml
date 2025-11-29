@@ -3,10 +3,10 @@
 site_name = "Technical Operations Documentation"
 site_description = "Information about the infrastructure and workflows in BCIT's Teaching and Learning unit."
 site_author = "Kyle Hunter"
-site_url = "https://technical-operations-documentation"
-copyright = """
-Copyright &copy; 2025 The authors
-"""
+# site_url = "https://technical-operations-documentation"
+# copyright = """
+# Copyright &copy; 2025 The authors
+# """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
