@@ -1,1 +1,1 @@
-# Getting started with app and state storage
+# Getting started with durable storage

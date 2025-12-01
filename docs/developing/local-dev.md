@@ -1,3 +1,4 @@
+<!-- markdownlint-disable code-block-style -->
 # Local development
 
 !!! tip "Strategy"
@@ -24,7 +25,6 @@ Docker makes it easy to develop containerized apps by providing a tool stack tha
 
 The main configuration file for Docker images is the `Dockerfile`, a file that specifies how an app should be built. The `Dockerfile` is a sequence of commands that the build engine reads to create everything your app needs to run. The final output of the build is an `image` that can (generally) run on any machine.
 
-<!-- markdownlint-disable-next-line -->
 ``` yaml title="Example Dockerfile" hl_lines="6 10"
 #-- Build --#
 FROM node:24.6.0-alpine3.22 AS builder

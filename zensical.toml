@@ -31,7 +31,6 @@ nav = [
       "developing/local-dev.md",
       "developing/git-workflow.md",
       "developing/codespace-development.md",
-      "developing/testing-deployment.md",
     ] },
   ] },
   { "Deploying" = [
@@ -66,16 +65,16 @@ nav = [
     ] },
     { "Traffic Routing & Load Balancing" = [
       "infrastructure/connecting-workloads.md",
-      "infrastructure/haproxy-lb.md",
+      "infrastructure/haproxy.md",
     ] },
     { "Continuous Deployment" = [
       "infrastructure/continuous-deployment.md",
     ] },
     { "Persistent Storage" = [
-      "infrastructure/installing-longhorn.md",
+      "infrastructure/longhorn.md",
     ] },
-    { "Kubernetes UI" = [
-      "infrastructure/installing-rancher.md",
+    { "Managing Clusters" = [
+      "infrastructure/managing-clusters.md",
     ] },
     { "Virtual Machine Management" = [
       "infrastructure/preparing-vms.md",
@@ -314,7 +313,12 @@ link = "https://github.com/bcit-lts/technical-operations-documentation"
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.footnotes]
 [project.markdown_extensions.pymdownx.blocks.caption]
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
 [project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
 [project.markdown_extensions.pymdownx.highlight]
 anchor_linenums = true
 line_spans = "__span"

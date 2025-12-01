@@ -1,1 +1,3 @@
-# Managing Clusters
+# Rancher Manager
+
+There are several Kubernetes dashboards available ([k8s-dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/), [k9s](https://k9scli.io/), [headlamp](https://headlamp.dev/), [skooner](https://skooner.io/)), but we have found that [Rancher Manager](https://ranchermanager.docs.rancher.com/) continues to be one of the best; it is free, efficient, performant, and receives regular updates from a reputable organization ([SUSE](https://www.rancher.com/products/rancher-platform)).

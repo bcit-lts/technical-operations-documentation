@@ -22,7 +22,7 @@ New projects typically start with:
 
     === "Dockerfile"
 
-        ``` yaml title="Example Dockerfile"
+        ``` yaml title="Example Dockerfile" linenums="1"
         #-- Build --#
         FROM node:24.6.0-alpine3.22 AS builder
 
@@ -59,7 +59,7 @@ New projects typically start with:
 
     === "docker-compose.yml"
 
-        ``` yaml title="Example docker-compose.yml"
+        ``` yaml title="Example docker-compose.yml" linenums="1"
         name: ${APP_NAME}
         services:
             app:

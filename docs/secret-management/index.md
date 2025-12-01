@@ -1,1 +1,1 @@
-# Getting started with app secrets
+# Getting started with secrets

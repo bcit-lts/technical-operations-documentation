@@ -1,1 +1,1 @@
-# Kubernetes Integration
+# Kubernetes Integration with Vault Secrets Operator
