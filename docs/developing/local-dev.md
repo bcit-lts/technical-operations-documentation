@@ -74,6 +74,8 @@ When developing locally, you can configure environment variables, secrets, volum
           - 8080:8080
     ```
 
+When you have a `Dockerfile` and a `docker-compose.yml` in your project root, run `docker compose up` to launch a local development environment.
+
 [^1]: [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
 [^2]: [https://hub.docker.com/](https://hub.docker.com/)
 [^3]: [https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)

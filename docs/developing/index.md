@@ -14,7 +14,7 @@ Apps are developed to be deployed as containers on Kubernetes clusters, so by fo
 
 ## Starting a project
 
-New projects typically start with:
+New projects begin by:
 
 1. Creating a repository in [github.com/bcit-lts](https://github.com/bcit-lts)[^4]
 1. Crafting a `README.md` that describes the project purpose
@@ -79,7 +79,7 @@ New projects typically start with:
                 - "3000:3000"
         ```
 
-Start local development with `docker compose up`.
+1. Start local development with `docker compose up`.
 
 See the links in the side menu for more details.
 
