@@ -1,13 +1,96 @@
-{#-
-  This file was automatically generated - do not edit
--#}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {%- for page in pages -%}
-    {%- if page.canonical_url %}
       <url>
-        <loc>{{ page.canonical_url }}</loc>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/</loc>
       </url>
-    {%- endif -%}
-  {%- endfor %}
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/developing/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/developing/local-dev/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/developing/git-workflow/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/developing/codespace-development/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/developing/testing-deployment/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/deploying/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/deploying/creating-helm-charts/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/deploying/using-secrets/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/deploying/using-storage/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/deploying/deploying-with-flux/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/monitoring/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/monitoring/logging/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/monitoring/alerting/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/secret-management/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/secret-management/connecting-apps/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/secret-management/static-secrets/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/secret-management/dynamic-credentials/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/storage/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/storage/app-storage/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/storage/blob-storage/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/installing-vault/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/vault-secrets-operator/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/managing-vault/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/connecting-workloads/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/haproxy-lb/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/continuous-deployment/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/installing-longhorn/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/preparing-vms/</loc>
+      </url>
+      <url>
+        <loc>https://bcit-lts.github.io/technical-operations-documentation/infrastructure/creating-clusters/</loc>
+      </url>
 </urlset>
