@@ -6,6 +6,7 @@ site_author = "Kyle Hunter"
 site_url = "https://bcit-lts.github.io/technical-operations-documentation/"
 repo_url = "https://github.com/bcit-lts/technical-operations-documentation"
 repo_name = "bcit-lts/technical-operations-documentation"
+edit_uri = "edit/main/docs/"
 copyright = """
 This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 """
@@ -34,49 +35,55 @@ nav = [
     ] },
   ] },
   { "Deploying" = [
+    { "Deploying apps" = [
     "deploying/index.md",
     "deploying/creating-helm-charts.md",
     "deploying/using-secrets.md",
     "deploying/using-storage.md",
     "deploying/deploying-with-flux.md",
+    ] },
   ] },
   { "Monitoring" = [
+    { "Workload health" = [
     "monitoring/index.md",
-    "monitoring/logging.md",
+    { "Logging activity" = "monitoring/logging.md" },
     "monitoring/alerting.md",
+    ] },
   ] },
   { "Secrets" = [
+    { "Getting started" = [
     "secret-management/index.md",
     "secret-management/connecting-apps.md",
-    "secret-management/static-secrets.md",
-    "secret-management/dynamic-credentials.md",
+    "secret-management/secret-types.md",
+    ] },
   ] },
   { "Storage" = [
+    { "Storage options" = [
     "storage/index.md",
-    "storage/app-storage.md",
-    "storage/blob-storage.md",
+    { "Azure CDN" = "storage/blob-storage.md" },
+    ] },
   ] },
   { "Infrastructure" = [
     "infrastructure/index.md",
-    { "Secrets Management" = [
+    { "Secrets management" = [
       "infrastructure/installing-vault.md",
-      "infrastructure/vault-secrets-operator.md",
+      { "Kubernetes integration" = "infrastructure/vault-secrets-operator.md" },
       "infrastructure/managing-vault.md",
     ] },
-    { "Traffic Routing & Load Balancing" = [
+    { "Traffic routing & load balancing" = [
       "infrastructure/connecting-workloads.md",
       "infrastructure/haproxy.md",
     ] },
-    { "Continuous Deployment" = [
+    { "Continuous deployment" = [
       "infrastructure/continuous-deployment.md",
     ] },
-    { "Persistent Storage" = [
+    { "Persistent storage" = [
       "infrastructure/longhorn.md",
     ] },
-    { "Managing Clusters" = [
+    { "Managing clusters" = [
       "infrastructure/managing-clusters.md",
     ] },
-    { "Virtual Machine Management" = [
+    { "Virtual machine management" = [
       "infrastructure/preparing-vms.md",
       "infrastructure/creating-clusters.md",
     ] },
@@ -128,13 +135,13 @@ features = [
   # will generate an edit button for the page. This works for common
   # repository hosting services.
   # https://zensical.org/docs/setup/repository/#code-actions
-  #"content.action.edit",
+  "content.action.edit",
 
   # If you have a repository configured and turn feature this on, Zensical
   # will generate a button that allows the user to view the Markdown
   # code for the current page.
   # https://zensical.org/docs/setup/repository/#code-actions
-  #"content.action.view",
+  "content.action.view",
 
   # Code annotations allow you to add an icon with a tooltip to your
   # code blocks to provide explanations at crucial points.
@@ -312,6 +319,7 @@ link = "https://github.com/bcit-lts/technical-operations-documentation"
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
 [project.markdown_extensions.pymdownx.blocks.caption]
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
@@ -327,6 +335,9 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.snippets]
 auto_append = ["glossary/abbreviations.md"]
 [project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.extra.status]
@@ -334,4 +345,4 @@ new = "Recently added"
 [project.markdown_extensions.toc]
 permalink =  true
 title = "On this page"
-toc_depth = 2
+toc_depth = 3
