@@ -29,7 +29,7 @@ Commit to your branch frequently to ensure your progress is saved and to make co
 
 ## Pull requests & merging
 
-When your branch satisfies the goals of the issue and is ready for integration, **open a pull request** and request a review.
+When your branch satisfies the goals of the issue and is ready for integration, **open a pull request :one:** and request a review.
 
 ![pull-request](../assets/images/pull-request.png)
 

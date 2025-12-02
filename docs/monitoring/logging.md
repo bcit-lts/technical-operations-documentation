@@ -1,3 +1,11 @@
+---
+tags:
+  - nginx
+  - monitoring
+  - startup
+  - liveness
+  - readiness
+---
 # Logging app activity
 
 !!! info
