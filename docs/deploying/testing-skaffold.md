@@ -1,4 +1,4 @@
-# How to deploy an app
+# Testing Helm charts witih Skaffold
 
 !!! failure
 

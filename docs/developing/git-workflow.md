@@ -7,9 +7,6 @@ tags:
 Our app development process loosely follows the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)[^1]. Features and fixes are developed on dedicated branches and merged into `main` through pull requests (PRs).
 
 ![git-workflow](../assets/images/git-workflow-simple-light.png)
-<!-- /// caption
-git workflow
-/// -->
 
 !!! tip
 

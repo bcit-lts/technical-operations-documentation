@@ -3,11 +3,14 @@ tags:
   - Docker
   - GitHub
 ---
+<!-- markdownlint-disable code-block-style -->
 # Getting started with app development
 
-Apps are developed to be deployed as containers on Kubernetes clusters, so by following consistent workflows, apps are easier to update and maintain.
+Apps are developed to run as containers on our Kubernetes clusters. By adopting a standard file structure and following consistent workflows, applications remain easier to update, deploy, and maintain.
 
 ## Requirements
+
+Before you begin, ensure you have:
 
 - [Docker](https://docs.docker.com/get-started/)[^1]
 - A [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)[^2]
@@ -15,11 +18,11 @@ Apps are developed to be deployed as containers on Kubernetes clusters, so by fo
 
 ## Starting a project
 
-New projects begin by:
+A new project typically begins with the following steps:
 
-1. Creating a repository in [github.com/bcit-lts](https://github.com/bcit-lts)[^4]
-1. Crafting a `README.md` that describes the project purpose
-1. Adding a `Dockerfile` and a `docker-compose.yml` to the project root:
+1. **Create a repository** under [github.com/bcit-lts](https://github.com/bcit-lts)[^4].
+1. **Add a clear `README.md`** describing the project purpose, goals, and any required setup.
+1. **Add a `Dockerfile` and `docker-compose.yml`** to the project root.
 
     === "Dockerfile"
 
@@ -80,9 +83,17 @@ New projects begin by:
                 - "3000:3000"
         ```
 
-1. Start local development with `docker compose up`.
+### Local development
 
-See the links in the side menu for more details about developing.
+To start local development:
+
+``` shell
+docker compose up
+```
+
+## Next steps
+
+Refer to the links in the side menu for more details about development workflows and conventions.
 
 [^1]: [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
 [^2]: [https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)

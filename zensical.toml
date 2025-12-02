@@ -31,63 +31,64 @@ nav = [
       "developing/index.md",
       "developing/local-dev.md",
       "developing/git-workflow.md",
-      "developing/codespace-development.md",
-    ] },
+      "developing/codespace-development.md"
+    ] }
   ] },
   { "Deploying" = [
     { "Deploying apps" = [
-    "deploying/index.md",
-    "deploying/creating-helm-charts.md",
-    "deploying/using-secrets.md",
-    "deploying/using-storage.md",
-    "deploying/deploying-with-flux.md",
-    ] },
+      "deploying/index.md",
+      "deploying/creating-helm-charts.md",
+      "deploying/testing-skaffold.md",
+      "deploying/deploying-with-flux.md"
+    ] }
   ] },
   { "Monitoring" = [
     { "Workload health" = [
-    "monitoring/index.md",
-    { "Logging activity" = "monitoring/logging.md" },
-    "monitoring/alerting.md",
-    ] },
+      "monitoring/index.md",
+      { "Logging activity" = "monitoring/logging.md" },
+      "monitoring/alerting.md"
+    ] }
   ] },
   { "Secrets" = [
     { "Getting started" = [
-    "secret-management/index.md",
-    "secret-management/connecting-apps.md",
-    "secret-management/secret-types.md",
-    ] },
+      "secret-management/index.md",
+      "secret-management/connecting-apps.md",
+      "secret-management/secret-types.md"
+    ] }
   ] },
   { "Storage" = [
     { "Storage options" = [
-    "storage/index.md",
-    { "Azure CDN" = "storage/blob-storage.md" },
-    ] },
+      "storage/index.md",
+      { "Azure CDN" = "storage/blob-storage.md" }
+    ] }
   ] },
   { "Infrastructure" = [
-    "infrastructure/index.md",
-    { "Secrets management" = [
-      "infrastructure/installing-vault.md",
-      { "Kubernetes integration" = "infrastructure/vault-secrets-operator.md" },
-      "infrastructure/managing-vault.md",
-    ] },
-    { "Traffic routing & load balancing" = [
-      "infrastructure/connecting-workloads.md",
-      "infrastructure/haproxy.md",
-    ] },
-    { "Continuous deployment" = [
-      "infrastructure/continuous-deployment.md",
-    ] },
-    { "Persistent storage" = [
-      "infrastructure/longhorn.md",
-    ] },
-    { "Managing clusters" = [
-      "infrastructure/managing-clusters.md",
-    ] },
-    { "Virtual machine management" = [
-      "infrastructure/preparing-vms.md",
-      "infrastructure/creating-clusters.md",
-    ] },
-  ] },
+    { "Systems & Operations" = [
+      "infrastructure/index.md",
+      { "Secrets management" = [
+        "infrastructure/installing-vault.md",
+        { "Kubernetes integration" = "infrastructure/vault-secrets-operator.md" },
+        "infrastructure/managing-vault.md"
+      ] },
+      { "Traffic routing & load balancing" = [
+        "infrastructure/connecting-workloads.md",
+        "infrastructure/haproxy.md"
+      ] },
+      { "Continuous deployment" = [
+        "infrastructure/continuous-deployment.md"
+      ] },
+      { "Persistent storage" = [
+        "infrastructure/longhorn.md"
+      ] },
+      { "Managing clusters" = [
+        "infrastructure/managing-clusters.md"
+      ] },
+      { "Virtual machine management" = [
+        "infrastructure/preparing-vms.md",
+        "infrastructure/creating-clusters.md"
+      ] }
+    ] }
+  ] }
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -345,4 +346,4 @@ new = "Recently added"
 [project.markdown_extensions.toc]
 permalink =  true
 title = "On this page"
-toc_depth = 3
+toc_depth = 2
