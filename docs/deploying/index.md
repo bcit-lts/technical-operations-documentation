@@ -1,3 +1,3 @@
-# How to deploy apps
+# How to deploy an app
 
 Content

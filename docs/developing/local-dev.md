@@ -1,3 +1,7 @@
+---
+tags:
+    - Docker
+---
 <!-- markdownlint-disable code-block-style -->
 # Local development
 

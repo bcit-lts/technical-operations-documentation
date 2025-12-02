@@ -1,3 +1,10 @@
+---
+status: new
+tags:
+    - Codespace
+    - GitHub
+    - devcontainer
+---
 <!-- markdownlint-disable code-block-style -->
 # Codespace development
 

@@ -1,6 +1,8 @@
-# Activity logging
+# Logging app activity
 
-> Logs are captured, processed, and visualized by a [Grafana stack](https://grafana.com/about/grafana-stack/).
+!!! info
+
+    Logs are captured, processed, and visualized by a [Grafana stack](https://grafana.com/about/grafana-stack/).
 
 Most workloads have an `nginx-unprivileged` frontend that is configured with health endpoints that can be probed by Kubernetes probes and captured by Grafana:
 

@@ -1,7 +1,8 @@
-<!-- ---
-status: new
---- -->
-
+---
+tags:
+  - Docker
+  - GitHub
+---
 # Getting started with app development
 
 Apps are developed to be deployed as containers on Kubernetes clusters, so by following consistent workflows, apps are easier to update and maintain.
@@ -81,7 +82,7 @@ New projects begin by:
 
 1. Start local development with `docker compose up`.
 
-See the links in the side menu for more details.
+See the links in the side menu for more details about developing.
 
 [^1]: [https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)
 [^2]: [https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
